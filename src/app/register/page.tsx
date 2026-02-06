@@ -1,7 +1,7 @@
-import LoginForm from "../components/login-form";
+import LoginForm from "./components/register-form";
 
 export const metadata = {
-  title: "Login | CarHub Pro",
+  title: "Registrar | CarHub Pro",
   description: "Acesse sua garagem inteligente.",
 };
 
@@ -27,12 +27,12 @@ export default function LoginPage() {
         <LoginForm />
 
         <p className="text-center text-sm text-slate-500">
-          Não tem uma conta?{" "}
+          Já tem uma conta?{" "}
           <a
-            href="/register"
+            href="/login"
             className="font-semibold text-blue-400 hover:text-blue-300 transition-colors"
           >
-            Cadastre-se grátis
+            Faça seu login
           </a>
         </p>
       </div>
